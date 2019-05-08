@@ -17,6 +17,7 @@
 		6A6C1930224C4A2F009F4F49 /* MelbourneCityGuideAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C192F224C4A2F009F4F49 /* MelbourneCityGuideAppUITests.m */; };
 		6A6F16F12281D39C00A5574B /* PlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F16F02281D39C00A5574B /* PlacesTableViewController.m */; };
 		6A6F16F42281D3CF00A5574B /* PlacesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F16F32281D3CF00A5574B /* PlacesTableViewCell.m */; };
+		6A6F16F62281D99800A5574B /* MelbourneBestPlaces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F16F52281D99800A5574B /* MelbourneBestPlaces.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		6A6F16F02281D39C00A5574B /* PlacesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewController.m; sourceTree = "<group>"; };
 		6A6F16F22281D3CF00A5574B /* PlacesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewCell.h; sourceTree = "<group>"; };
 		6A6F16F32281D3CF00A5574B /* PlacesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewCell.m; sourceTree = "<group>"; };
+		6A6F16F52281D99800A5574B /* MelbourneBestPlaces.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MelbourneBestPlaces.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				6A6C1916224C4A2E009F4F49 /* LaunchScreen.storyboard */,
 				6A6C1919224C4A2E009F4F49 /* Info.plist */,
 				6A6C191A224C4A2E009F4F49 /* main.m */,
+				6A6F16F52281D99800A5574B /* MelbourneBestPlaces.plist */,
 			);
 			path = MelbourneCityGuideApp;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				6A6C1918224C4A2E009F4F49 /* LaunchScreen.storyboard in Resources */,
 				6A6C1915224C4A2E009F4F49 /* Assets.xcassets in Resources */,
+				6A6F16F62281D99800A5574B /* MelbourneBestPlaces.plist in Resources */,
 				6A6C1913224C4A2D009F4F49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

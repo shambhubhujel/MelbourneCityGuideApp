@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Places</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Federation Square</string>
+			<key>Address</key>
+			<string>Swanston St &amp; Flinders St, Melbourne VIC 3000</string>
+			<key>Image</key>
+			<string>Image1</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Royal Botanic Gardens Victoria - Melbourne Gardens	</string>
+			<key>Address</key>
+			<string>Birdwood Ave South Yara VIC 3147</string>
+			<key>Image</key>
+			<string>Image2</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Melbourne Zoo</string>
+			<key>Address</key>
+			<string>Elliott Ave, Parkville VIC 3052</string>
+			<key>Image</key>
+			<string>Image3</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Eureka Skydeck</string>
+			<key>Address</key>
+			<string>7 Riverside Quay, Southbank VIC 3006</string>
+			<key>Image</key>
+			<string>Image4</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Puffing Billy Railway</string>
+			<key>Address</key>
+			<string>1 Old Monbulk Rd, Belgrave VIC 3160</string>
+			<key>Image</key>
+			<string>Image5</string>
+		</dict>
+	</array>
+</dict>
+</plist>
