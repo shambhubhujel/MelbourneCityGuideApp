@@ -15,6 +15,8 @@
 		6A6C191B224C4A2E009F4F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C191A224C4A2E009F4F49 /* main.m */; };
 		6A6C1925224C4A2F009F4F49 /* MelbourneCityGuideAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C1924224C4A2F009F4F49 /* MelbourneCityGuideAppTests.m */; };
 		6A6C1930224C4A2F009F4F49 /* MelbourneCityGuideAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C192F224C4A2F009F4F49 /* MelbourneCityGuideAppUITests.m */; };
+		6A6F16F12281D39C00A5574B /* PlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F16F02281D39C00A5574B /* PlacesTableViewController.m */; };
+		6A6F16F42281D3CF00A5574B /* PlacesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F16F32281D3CF00A5574B /* PlacesTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6A6C192B224C4A2F009F4F49 /* MelbourneCityGuideAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelbourneCityGuideAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6C192F224C4A2F009F4F49 /* MelbourneCityGuideAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MelbourneCityGuideAppUITests.m; sourceTree = "<group>"; };
 		6A6C1931224C4A2F009F4F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6F16EF2281D39C00A5574B /* PlacesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewController.h; sourceTree = "<group>"; };
+		6A6F16F02281D39C00A5574B /* PlacesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewController.m; sourceTree = "<group>"; };
+		6A6F16F22281D3CF00A5574B /* PlacesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewCell.h; sourceTree = "<group>"; };
+		6A6F16F32281D3CF00A5574B /* PlacesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		6A6C190A224C4A2C009F4F49 /* MelbourneCityGuideApp */ = {
 			isa = PBXGroup;
 			children = (
+				6A6F16EE2281D36D00A5574B /* Places */,
 				6A6C190B224C4A2C009F4F49 /* AppDelegate.h */,
 				6A6C190C224C4A2C009F4F49 /* AppDelegate.m */,
 				6A6C190E224C4A2C009F4F49 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				6A6C1931224C4A2F009F4F49 /* Info.plist */,
 			);
 			path = MelbourneCityGuideAppUITests;
+			sourceTree = "<group>";
+		};
+		6A6F16EE2281D36D00A5574B /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F16EF2281D39C00A5574B /* PlacesTableViewController.h */,
+				6A6F16F02281D39C00A5574B /* PlacesTableViewController.m */,
+				6A6F16F22281D3CF00A5574B /* PlacesTableViewCell.h */,
+				6A6F16F32281D3CF00A5574B /* PlacesTableViewCell.m */,
+			);
+			path = Places;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A6C1910224C4A2C009F4F49 /* ViewController.m in Sources */,
+				6A6F16F12281D39C00A5574B /* PlacesTableViewController.m in Sources */,
+				6A6F16F42281D3CF00A5574B /* PlacesTableViewCell.m in Sources */,
 				6A6C191B224C4A2E009F4F49 /* main.m in Sources */,
 				6A6C190D224C4A2C009F4F49 /* AppDelegate.m in Sources */,
 			);
