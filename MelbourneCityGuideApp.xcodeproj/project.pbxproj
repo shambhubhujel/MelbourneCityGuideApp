@@ -18,6 +18,8 @@
 		6A6F16F12281D39C00A5574B /* PlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F16F02281D39C00A5574B /* PlacesTableViewController.m */; };
 		6A6F16F42281D3CF00A5574B /* PlacesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F16F32281D3CF00A5574B /* PlacesTableViewCell.m */; };
 		6A6F16F62281D99800A5574B /* MelbourneBestPlaces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F16F52281D99800A5574B /* MelbourneBestPlaces.plist */; };
+		6A6F16F92281E4A900A5574B /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F16F82281E4A900A5574B /* DetailsViewController.m */; };
+		6A889CD922828EAA0063BB2F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A889CD822828EAA0063BB2F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		6A6F16F22281D3CF00A5574B /* PlacesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewCell.h; sourceTree = "<group>"; };
 		6A6F16F32281D3CF00A5574B /* PlacesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewCell.m; sourceTree = "<group>"; };
 		6A6F16F52281D99800A5574B /* MelbourneBestPlaces.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MelbourneBestPlaces.plist; sourceTree = "<group>"; };
+		6A6F16F72281E4A900A5574B /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		6A6F16F82281E4A900A5574B /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		6A889CD822828EAA0063BB2F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A889CD922828EAA0063BB2F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +99,7 @@
 				6A6C1923224C4A2F009F4F49 /* MelbourneCityGuideAppTests */,
 				6A6C192E224C4A2F009F4F49 /* MelbourneCityGuideAppUITests */,
 				6A6C1909224C4A2C009F4F49 /* Products */,
+				6A889CD722828EA40063BB2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,8 +156,18 @@
 				6A6F16F02281D39C00A5574B /* PlacesTableViewController.m */,
 				6A6F16F22281D3CF00A5574B /* PlacesTableViewCell.h */,
 				6A6F16F32281D3CF00A5574B /* PlacesTableViewCell.m */,
+				6A6F16F72281E4A900A5574B /* DetailsViewController.h */,
+				6A6F16F82281E4A900A5574B /* DetailsViewController.m */,
 			);
 			path = Places;
+			sourceTree = "<group>";
+		};
+		6A889CD722828EA40063BB2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A889CD822828EAA0063BB2F /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +304,7 @@
 				6A6C1910224C4A2C009F4F49 /* ViewController.m in Sources */,
 				6A6F16F12281D39C00A5574B /* PlacesTableViewController.m in Sources */,
 				6A6F16F42281D3CF00A5574B /* PlacesTableViewCell.m in Sources */,
+				6A6F16F92281E4A900A5574B /* DetailsViewController.m in Sources */,
 				6A6C191B224C4A2E009F4F49 /* main.m in Sources */,
 				6A6C190D224C4A2C009F4F49 /* AppDelegate.m in Sources */,
 			);
