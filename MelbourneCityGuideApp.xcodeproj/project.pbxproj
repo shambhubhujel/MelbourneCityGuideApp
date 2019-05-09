@@ -22,6 +22,8 @@
 		6A6F16F62281D99800A5574B /* MelbourneBestPlaces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F16F52281D99800A5574B /* MelbourneBestPlaces.plist */; };
 		6A6F16F92281E4A900A5574B /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F16F82281E4A900A5574B /* DetailsViewController.m */; };
 		6A889CD922828EAA0063BB2F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A889CD822828EAA0063BB2F /* MapKit.framework */; };
+		6AF51658228489EA003AC784 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF51657228489EA003AC784 /* ContactViewController.m */; };
+		6AF5165D22849479003AC784 /* EmailUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5165C22849479003AC784 /* EmailUsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,10 @@
 		6A6F16F72281E4A900A5574B /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		6A6F16F82281E4A900A5574B /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		6A889CD822828EAA0063BB2F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6AF51656228489EA003AC784 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		6AF51657228489EA003AC784 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		6AF5165B22849479003AC784 /* EmailUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailUsViewController.h; sourceTree = "<group>"; };
+		6AF5165C22849479003AC784 /* EmailUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailUsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,12 +139,13 @@
 		6A6C190A224C4A2C009F4F49 /* MelbourneCityGuideApp */ = {
 			isa = PBXGroup;
 			children = (
-				6A4FF7402283FA9300C81DB0 /* Gallery */,
-				6A6F16EE2281D36D00A5574B /* Places */,
 				6A6C190B224C4A2C009F4F49 /* AppDelegate.h */,
 				6A6C190C224C4A2C009F4F49 /* AppDelegate.m */,
 				6A6C190E224C4A2C009F4F49 /* ViewController.h */,
 				6A6C190F224C4A2C009F4F49 /* ViewController.m */,
+				6A6F16EE2281D36D00A5574B /* Places */,
+				6A4FF7402283FA9300C81DB0 /* Gallery */,
+				6AF5165522848499003AC784 /* ContactUs */,
 				6A6C1911224C4A2D009F4F49 /* Main.storyboard */,
 				6A6C1914224C4A2E009F4F49 /* Assets.xcassets */,
 				6A6C1916224C4A2E009F4F49 /* LaunchScreen.storyboard */,
@@ -186,6 +193,17 @@
 				6A889CD822828EAA0063BB2F /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AF5165522848499003AC784 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				6AF51656228489EA003AC784 /* ContactViewController.h */,
+				6AF51657228489EA003AC784 /* ContactViewController.m */,
+				6AF5165B22849479003AC784 /* EmailUsViewController.h */,
+				6AF5165C22849479003AC784 /* EmailUsViewController.m */,
+			);
+			path = ContactUs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,10 +341,12 @@
 				6A6F16F12281D39C00A5574B /* PlacesTableViewController.m in Sources */,
 				6A6F16F42281D3CF00A5574B /* PlacesTableViewCell.m in Sources */,
 				6A4FF7432283FAEA00C81DB0 /* GalleryCollectionViewController.m in Sources */,
+				6AF51658228489EA003AC784 /* ContactViewController.m in Sources */,
 				6A6F16F92281E4A900A5574B /* DetailsViewController.m in Sources */,
 				6A4FF7472283FC6000C81DB0 /* GalleryCollectionViewCell.m in Sources */,
 				6A6C191B224C4A2E009F4F49 /* main.m in Sources */,
 				6A6C190D224C4A2C009F4F49 /* AppDelegate.m in Sources */,
+				6AF5165D22849479003AC784 /* EmailUsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
