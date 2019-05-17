@@ -18,17 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image3" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zer-Gv-sK4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zer-Gv-sK4">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="zer-Gv-sK4" secondAttribute="trailing" id="Stg-rJ-AkY"/>
-                            <constraint firstItem="zer-Gv-sK4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cYB-aJ-TcN"/>
-                            <constraint firstItem="zer-Gv-sK4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="pza-SO-BLD"/>
-                            <constraint firstItem="zer-Gv-sK4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xZt-CQ-rFp"/>
+                            <constraint firstItem="zer-Gv-sK4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6NI-dW-nHZ"/>
+                            <constraint firstItem="zer-Gv-sK4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Eqd-6v-j6Y"/>
+                            <constraint firstAttribute="trailing" secondItem="zer-Gv-sK4" secondAttribute="trailing" id="dgV-dh-YhL"/>
+                            <constraint firstItem="zer-Gv-sK4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="xRk-FO-zYH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -39,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image3" width="1920" height="1080"/>
+        <image name="Background" width="2560" height="1600"/>
     </resources>
 </document>

@@ -11,6 +11,12 @@
 			<string>Swanston St &amp; Flinders St, Melbourne VIC 3000</string>
 			<key>Image</key>
 			<string>Image1</string>
+			<key>Description</key>
+			<string>Federation Square is a venue for arts, culture and public events on the edge of the Melbourne central business district. It covers an area of 3.2 ha at the intersection of Flinders and Swanston Streets built above busy railway lines and across the road from Flinders Street station.</string>
+			<key>Latitute</key>
+			<string>-37.8175</string>
+			<key>Longitude</key>
+			<string>144.968</string>
 		</dict>
 		<dict>
 			<key>Title</key>
@@ -19,6 +25,12 @@
 			<string>Birdwood Ave South Yara VIC 3147</string>
 			<key>Image</key>
 			<string>Image2</string>
+			<key>Description</key>
+			<string>Royal Botanic Gardens Victoria are botanic gardens across two sites - Melbourne and Cranbourne. Melbourne Gardens was founded in 1846 when land was reserved on the south side of the Yarra River for a new botanic garden. It extends across 36 hectares that slope to the river with trees, garden beds, lakes and lawns.</string>
+			<key>Latitute</key>
+			<string>-37.8206</string>
+			<key>Longitude</key>
+			<string>144.979</string>
 		</dict>
 		<dict>
 			<key>Title</key>
@@ -27,6 +39,12 @@
 			<string>Elliott Ave, Parkville VIC 3052</string>
 			<key>Image</key>
 			<string>Image3</string>
+			<key>Description</key>
+			<string>The Royal Melbourne Zoological Gardens, commonly referred as the Melbourne Zoo and simply as the Zoo among locals, is a zoological park in Melbourne, Australia. It is located within Royal Park in Parkville, approximately 4 kilometres north of the centre of Melbourne. It is the primary zoo serving Melbourne</string>
+			<key>Latitute</key>
+			<string>-37.7812</string>
+			<key>Longitude</key>
+			<string>144.952</string>
 		</dict>
 		<dict>
 			<key>Title</key>
@@ -35,6 +53,12 @@
 			<string>7 Riverside Quay, Southbank VIC 3006</string>
 			<key>Image</key>
 			<string>Image4</string>
+			<key>Description</key>
+			<string>Eureka Tower is a 297.3-metre skyscraper located in the Southbank precinct of Melbourne, Victoria, Australia. Construction began in August 2002 and the exterior completed on 1 June 2006. The plaza was finished in June 2006 and the building was officially opened on 11 October 2006.</string>
+			<key>Latitute</key>
+			<string>-37.821</string>
+			<key>Longitude</key>
+			<string>144.964</string>
 		</dict>
 		<dict>
 			<key>Title</key>
@@ -43,6 +67,12 @@
 			<string>1 Old Monbulk Rd, Belgrave VIC 3160</string>
 			<key>Image</key>
 			<string>Image5</string>
+			<key>Description</key>
+			<string>The Puffing Billy Railway is a 2 ft 6 in narrow gauge heritage railway in the Dandenong Ranges in Melbourne, Australia. The primary starting point, operations and administration centre, main refreshment room and ticket purchasing are located at Belgrave station.</string>
+			<key>Latitute</key>
+			<string>-37.9077883</string>
+			<key>Longitude</key>
+			<string>145.3567196</string>
 		</dict>
 	</array>
 </dict>

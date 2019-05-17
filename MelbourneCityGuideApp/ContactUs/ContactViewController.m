@@ -7,6 +7,7 @@
 //
 
 #import "ContactViewController.h"
+#import "MapPInPointer.h"
 
 @interface ContactViewController ()
 
@@ -22,6 +23,24 @@
     self.btnEmailUs.layer.cornerRadius=5;
     self.btnSocialLinks.layer.cornerRadius=5;
     
+    //Locate Office location in MapView
+    MKCoordinateRegion region;
+    MKCoordinateSpan    span;
+    CLLocationCoordinate2D location;
+    span.latitudeDelta =0.005;
+    span.longitudeDelta =0.005;
+    location.latitude= -37.8178168;
+    location.longitude=144.9535707;
+    region.span=span;
+    region.center=location;
+    [self.mapView setRegion:region animated:YES];
+    
+    //Set Location pointer
+    MapPInPointer *ann =[[MapPInPointer alloc] init];
+    ann.coordinate  =location;
+    [self.mapView addAnnotation: ann];
+    
+    
 }
 
 /*
@@ -35,8 +54,11 @@
 */
 
 - (IBAction)getDirection:(id)sender {
+    [[UIApplication sharedApplication ]openURL:[NSURL URLWithString:@"http://maps.apple.com/maps?daddr=-37.8178168,144.9535750"]options:@{} completionHandler:nil];
+    
 }
 
 - (IBAction)callUS:(id)sender {
-}
+    [[UIApplication sharedApplication ]openURL:[NSURL URLWithString:@"tel:0452323483"]options:@{} completionHandler:nil];}
+
 @end

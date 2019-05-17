@@ -12,6 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DetailsViewController : UIViewController
+@property (strong,nonatomic) NSArray *detailModal;
 @property (weak, nonatomic) IBOutlet UILabel *detailTitle;
 @property (weak, nonatomic) IBOutlet UILabel *detailAddress;
 @property (weak, nonatomic) IBOutlet UIImageView *detailImage;
