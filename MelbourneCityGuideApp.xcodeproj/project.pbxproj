@@ -24,6 +24,8 @@
 		6A889CD922828EAA0063BB2F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A889CD822828EAA0063BB2F /* MapKit.framework */; };
 		6A8D63C822892FA500280D3A /* MapPInPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D63C722892FA500280D3A /* MapPInPointer.m */; };
 		6A8D63CB22897DA000280D3A /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D63CA22897DA000280D3A /* MapPin.m */; };
+		6AAEFC19229C0FF1006D1FCF /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAEFC18229C0FF1006D1FCF /* Forecast.m */; };
+		6AAEFC1C229C111C006D1FCF /* WeatherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAEFC1B229C111C006D1FCF /* WeatherInfoViewController.m */; };
 		6AF51658228489EA003AC784 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF51657228489EA003AC784 /* ContactViewController.m */; };
 		6AF5165D22849479003AC784 /* EmailUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5165C22849479003AC784 /* EmailUsViewController.m */; };
 /* End PBXBuildFile section */
@@ -78,6 +80,11 @@
 		6A8D63C722892FA500280D3A /* MapPInPointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPInPointer.m; sourceTree = "<group>"; };
 		6A8D63C922897DA000280D3A /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
 		6A8D63CA22897DA000280D3A /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		6AAEFC16229C0F8C006D1FCF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6AAEFC17229C0FF1006D1FCF /* Forecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Forecast.h; sourceTree = "<group>"; };
+		6AAEFC18229C0FF1006D1FCF /* Forecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
+		6AAEFC1A229C111C006D1FCF /* WeatherInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherInfoViewController.h; sourceTree = "<group>"; };
+		6AAEFC1B229C111C006D1FCF /* WeatherInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherInfoViewController.m; sourceTree = "<group>"; };
 		6AF51656228489EA003AC784 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		6AF51657228489EA003AC784 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		6AF5165B22849479003AC784 /* EmailUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailUsViewController.h; sourceTree = "<group>"; };
@@ -158,6 +165,11 @@
 				6A6C1919224C4A2E009F4F49 /* Info.plist */,
 				6A6C191A224C4A2E009F4F49 /* main.m */,
 				6A6F16F52281D99800A5574B /* MelbourneBestPlaces.plist */,
+				6AAEFC16229C0F8C006D1FCF /* Constants.h */,
+				6AAEFC17229C0FF1006D1FCF /* Forecast.h */,
+				6AAEFC18229C0FF1006D1FCF /* Forecast.m */,
+				6AAEFC1A229C111C006D1FCF /* WeatherInfoViewController.h */,
+				6AAEFC1B229C111C006D1FCF /* WeatherInfoViewController.m */,
 			);
 			path = MelbourneCityGuideApp;
 			sourceTree = "<group>";
@@ -350,7 +362,9 @@
 				6A8D63CB22897DA000280D3A /* MapPin.m in Sources */,
 				6A6C1910224C4A2C009F4F49 /* ViewController.m in Sources */,
 				6A6F16F12281D39C00A5574B /* PlacesTableViewController.m in Sources */,
+				6AAEFC1C229C111C006D1FCF /* WeatherInfoViewController.m in Sources */,
 				6A6F16F42281D3CF00A5574B /* PlacesTableViewCell.m in Sources */,
+				6AAEFC19229C0FF1006D1FCF /* Forecast.m in Sources */,
 				6A4FF7432283FAEA00C81DB0 /* GalleryCollectionViewController.m in Sources */,
 				6AF51658228489EA003AC784 /* ContactViewController.m in Sources */,
 				6A6F16F92281E4A900A5574B /* DetailsViewController.m in Sources */,
