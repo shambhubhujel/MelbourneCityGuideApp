@@ -24,7 +24,15 @@ static NSString * const reuseIdentifier = @"Cell";
               @"Image2",
               @"Image3",
               @"Image4",
-              @"Image5",];
+              @"Image5",
+              @"Image6",
+              @"Image7",
+              @"Image8",
+              @"Image9",
+              @"Image10",
+              @"Image11",
+              @"Image12",
+              @"Image13",];
     
 }
 

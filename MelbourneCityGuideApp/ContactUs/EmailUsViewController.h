@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
+#import <MessageUI/MessageUI.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EmailUsViewController : UIViewController
+@interface EmailUsViewController : UIViewController <MFMailComposeViewControllerDelegate, UITextViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 
 @property (weak, nonatomic) IBOutlet UITextField *emailField;
